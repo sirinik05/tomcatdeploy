@@ -23,7 +23,10 @@ variable "ami_type" {
 }
 
 variable "my_default_port" {
-  default = "22"variable "my_cidr_blocks" {
+  default = "22"
+}
+
+variable "my_cidr_blocks" {
   default = ["69.119.126.1/32"]
 }
 
