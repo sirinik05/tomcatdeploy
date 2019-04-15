@@ -1,9 +1,9 @@
 variable "key_name" {
-  default = "siriAWS.pub"
+  default = "siriAWS"
 }
 
 variable "private_key_path" {
-  default = "/opt/key/siriAWS"
+  default = "../../siriAWS"
 }
 
 variable "region" {
