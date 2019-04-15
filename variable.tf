@@ -2,10 +2,6 @@ variable "key_name" {
   default = "siriAWS.pub"
 }
 
-variable "aws_access_key" {}
-
-variable "aws_secret_key" {}
-
 variable "private_key_path" {
   default = "/opt/key/siriAWS"
 }
